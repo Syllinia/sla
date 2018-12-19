@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<templates>
+    <flowStatWindowSize>
+        <minimum>10</minimum>
+        <maximum>300</maximum>
+    </flowStatWindowSize>
+    
+    <template>
+        <id>0</id>
+        <name>default</name>
+        <priority>20</priority>
+        <initialBandWidth>0</initialBandWidth>
+        <maxBandWidth>0</maxBandWidth>
+        <minBandWidth>0</minBandWidth>
+        <increaseStep>0</increaseStep>
+        <threshold2increase>0</threshold2increase>
+        <window2increase>0</window2increase>
+        <decreaseStep>0</decreaseStep>
+        <threshold2decrease>0</threshold2decrease>
+        <window2decrease>0</window2decrease>
+    </template>
+
+    <template>
+        <id>1</id>
+        <name>management</name>
+        <priority>0</priority>
+        <initialBandWidth>10</initialBandWidth>
+        <maxBandWidth>10</maxBandWidth>
+        <minBandWidth>1</minBandWidth>
+        <increaseStep>5</increaseStep>
+        <threshold2increase>0.7</threshold2increase>
+        <window2increase>1</window2increase>
+        <decreaseStep>1</decreaseStep>
+        <threshold2decrease>0.5</threshold2decrease>
+        <window2decrease>5</window2decrease>
+    </template>
+    
+    <template>
+        <id>10</id>
+        <name>VoIP_video_gold</name>
+        <priority>10</priority>
+        <initialBandWidth>100</initialBandWidth>
+        <maxBandWidth>100</maxBandWidth>
+        <minBandWidth>20</minBandWidth>
+        <increaseStep>10</increaseStep>
+        <threshold2increase>0.9</threshold2increase>
+        <window2increase>2</window2increase>
+        <decreaseStep>20</decreaseStep>
+        <threshold2decrease>0.8</threshold2decrease>
+        <window2decrease>2</window2decrease>
+    </template>
+    
+    <template>
+        <id>11</id>
+        <name>VoIP_audio_gold</name>
+        <priority>11</priority>
+        <initialBandWidth>100</initialBandWidth>
+        <maxBandWidth>100</maxBandWidth>
+        <minBandWidth>80</minBandWidth>
+        <increaseStep>20</increaseStep>
+        <threshold2increase>0.8</threshold2increase>
+        <window2increase>1</window2increase>
+        <decreaseStep>10</decreaseStep>
+        <threshold2decrease>0.7</threshold2decrease>
+        <window2decrease>5</window2decrease>
+    </template>
+    
+</templates>

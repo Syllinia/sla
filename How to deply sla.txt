@@ -1,0 +1,15 @@
+Steps to deploy sla：
+1.Install JAVA and set environment variables:
+Variable Name       Value
+CLASSPATH           .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
+JAVA_HOME           E:\Program Files\Java\jdk1.8.0_66
+Path                C:\ProgramData\Oracle\Java\javapath;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;E:\Program Files\TortoiseSVN\bin;%VBOX_MSI_INSTALL_PATH%;%KARAF_HOME%\bin;%M2_HOME%\bin
+
+2.Install maven and set related environment variables:
+Variable Name       Value
+M2_HOME             E:\apache-maven-3.3.3
+MAVEN               E:\apache-maven-3.3.3
+
+3.Put the following files into the same directory: sla.jar, config.xml, template.xml and flowTemplateBindings.xml
+
+4.java -jar sla.jar
